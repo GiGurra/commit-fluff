@@ -18,7 +18,8 @@ So, say goodbye to those boring old commit messages and say hello to Commit-Fluf
 
 ## Sample
 
-``` ./commit-fluff
+```
+>commit-fluff
 What type of changes are you committing?
 1. New feature
 2. Bug fix
@@ -34,7 +35,8 @@ Is this a breaking change?
 2. No
 Enter the number corresponding to your answer: 1
 Enter your commit message: Fix da bug
-Your commit message should be: fix!: Fix da bug```
+Your commit message should be: fix!: Fix da bug
+```
 
 ## Author
 
