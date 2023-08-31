@@ -1,0 +1,34 @@
+#!/bin/bash
+echo "What type of changes are you committing?"
+echo "1. New feature"
+echo "2. Bug fix"
+echo "3. Documentation changes"
+echo "4. Style changes"
+echo "5. Refactor"
+echo "6. Performance improvement"
+echo "7. Adding or correcting tests"
+echo "8. Changes to build process or auxiliary tools"
+read -p "Enter the number corresponding to your change: " change_type
+case $change_type in
+  1) prefix="feat";;
+  2) prefix="fix";;
+  3) prefix="docs";;
+  4) prefix="style";;
+  5) prefix="refactor";;
+  6) prefix="perf";;
+  7) prefix="test";;
+  8) prefix="chore";;
+  *) echo "Invalid option"; exit 1;;
+esac
+echo "Is this a breaking change?"
+echo "1. Yes"
+echo "2. No"
+read -p "Enter the number corresponding to your answer: " breaking_change
+case $breaking_change in
+  1) breaking_change="!";;
+  2) breaking_change="";;
+  *) echo "Invalid option"; exit 1;;
+esac
+read -p "Enter your commit message: " commit_message
+echo "Your commit message should be: $prefix$breaking_change: $commit_message"
+
