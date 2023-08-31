@@ -15,3 +15,27 @@ Commit-Fluff is a simple bash script that guides you through the process of crea
 Just run the script before you're ready to commit your changes, answer the questions, and voila! You'll have a perfectly formatted commit message ready to go.
 
 So, say goodbye to those boring old commit messages and say hello to Commit-Fluff! Let's make commit messages fun again!
+
+## Sample
+
+``` ./commit-fluff
+What type of changes are you committing?
+1. New feature
+2. Bug fix
+3. Documentation changes
+4. Style changes
+5. Refactor
+6. Performance improvement
+7. Adding or correcting tests
+8. Changes to build process or auxiliary tools
+Enter the number corresponding to your change: 2
+Is this a breaking change?
+1. Yes
+2. No
+Enter the number corresponding to your answer: 1
+Enter your commit message: Fix da bug
+Your commit message should be: fix!: Fix da bug```
+
+## Made by
+
+GPT4 on command line :D 
