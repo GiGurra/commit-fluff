@@ -36,6 +36,6 @@ Enter the number corresponding to your answer: 1
 Enter your commit message: Fix da bug
 Your commit message should be: fix!: Fix da bug```
 
-## Made by
+## Author
 
-GPT4 on command line :D 
+Script and readme written by GPT4 on command line 
